@@ -1,0 +1,30 @@
+.btn {
+  border-radius: 4px;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  margin: auto;
+  border: 1px solid rgba(226, 247, 255, 0);
+  background-color: rgb(226, 247, 255);
+  padding: 5px 7px 4px 7px;
+  width: 200px;
+  height: 200px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  background-image: url(../static/backgroundpic.jpg);
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: #000;
+}
+
+#btn-boids {
+  background-image: url(../static/btn_boids.png);
+  background-position: center center;
+  background-size: 240px;
+}
+#btn-boids:hover {
+  background-image: url(../static/btn_boids.png);
+  background-position: center center;
+  background-size:250px;
+}
